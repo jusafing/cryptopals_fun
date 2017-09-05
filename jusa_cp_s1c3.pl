@@ -46,7 +46,7 @@ sub decrypt {
         my $key_c = chr($key);
         $msg{$key} = "";
         foreach my $hex ($c =~ m/../g) {
-            my $char = pack "c", hex($hex);
+            my $char = pack "H*", $hex;
             xor_char($char, $key_c, \%msg, \%freq, \%freq_az, \%ign);
         }
     }
