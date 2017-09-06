@@ -36,6 +36,28 @@ The TOP 3 of possible KEYS and DEC(m) (based on CHI2) are:
   > 3) KEY [94] | M: Eiimoha&KE!u&jomc&g&vishb&i`&dgeih
 
 ####################################################
-Morris [jusafing@jusanet.org]
+
+```
+
+### Set 1 - Challenge 4
+Solution for `https://cryptopals.com/sets/1/challenges/4`
+
+Syntax:
+```
+$ perl jusa_cp_s1c4.pl FILE
+```
+
+Sample Output:
+
+```
+[7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f] 1) KEY [53] | CH: 38.4806054555964 | M: Now that the party is jumping
+
+####################################################
+The TOP 5 of possible KEYS and DEC(m) (based on CHI2) are:
+
+1) C-K-M: 7b5a4215415d544115415d5015455447414c155c46155f4058455c5b523f|--|53|--|Now that the party is jumping | CH: 38.4806054555964
+
+####################################################
+
 
 ```
